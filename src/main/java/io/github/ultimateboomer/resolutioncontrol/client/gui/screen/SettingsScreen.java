@@ -94,7 +94,7 @@ public class SettingsScreen extends Screen {
     @Override
     public void render(DrawContext context, int mouseX, int mouseY, float delta) {
         if (client.world == null) {
-            renderBackgroundTexture(context);
+            renderBackgroundTexture(context, WINDOW_TEXTURE, mouseX, mouseY, 0, 0, 0, 0);
         }
 
         RenderSystem.disableDepthTest();

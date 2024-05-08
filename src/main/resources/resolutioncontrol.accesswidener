@@ -1,4 +1,4 @@
-accessWidener v1 named
+accessWidener v2 named
 
 accessible field net/minecraft/client/MinecraftClient framebuffer Lnet/minecraft/client/gl/Framebuffer;
 accessible field net/minecraft/client/MinecraftClient currentFps I
